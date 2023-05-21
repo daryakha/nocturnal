@@ -1,0 +1,45 @@
+#simulationCanvasContainer {
+  position: absolute;
+  inset: 0;
+}
+
+#myChart {
+  position: absolute;
+  max-width: 880px;
+  max-height: 880px;
+  top: 55px;
+  left: 830px;
+  opacity: 0;
+}
+
+#overlay {
+  position: absolute;
+  top: 10px;
+  left: 730px;
+  opacity: 0;
+}
+
+/* fonts */
+@font-face {
+  font-family: "FiraSans-Regular";
+  src: url("./fonts/FiraSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FiraSans-Medium";
+  src: url("./fonts/FiraSans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FiraSans-SemiBold";
+  src: url("./fonts/FiraSans-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}

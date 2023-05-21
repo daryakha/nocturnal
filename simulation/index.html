@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+    	<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<title>nocturnal</title>
+    	<link rel="icon" href="./images/tab-anzeige.png" type="image/png">
+    	<script src="lib/p5-1.4.1.js"></script>
+    	<script src="lib/chart-3.8.0.js"></script>
+    	<script src="simulation.js" type="module"></script>
+    	<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id = "simulationCanvasContainer"> </div> 
+		<canvas id="myChart" width="400" height="400"></canvas>
+		<!-- overlay for when the radar chart is inactive -->
+		<svg id="overlay" width="900" height="750">
+			<g>
+				<rect x="0" y="0" width="900" height="750" fill= "#0d0042" fill-opacity= "0.5"></rect>
+			</g>
+		</svg>
+	</body>
+	<script src="radarChart.js" type = "module"></script>
+</html>
