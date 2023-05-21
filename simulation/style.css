@@ -1,4 +1,5 @@
-body {
+#simulationCanvasContainer {
+  position: absolute;
   text-align: center;
   height: 100vh;
 }
