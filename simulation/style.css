@@ -1,6 +1,6 @@
-#simulationCanvasContainer {
-  position: absolute;
-  inset: 0;
+body {
+  text-align: center;
+  height: 100vh;
 }
 
 #myChart {
